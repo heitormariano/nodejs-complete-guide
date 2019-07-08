@@ -6,6 +6,7 @@ let hasHobbies = true;
 let summarizeUser = function (userName, userAge, userHasHobby) {
     return `User name: ${userName} - User Age: ${userAge} - User Has Hobbies: ${userHasHobby}`;
 };
+
 console.log(summarizeUser(name, age, hasHobbies));
 
 // arrow function form
@@ -17,27 +18,27 @@ console.log(summarizeUser(name, age, hasHobbies));
 // Other Exemples
 
 // function
-let getWordLenght = function (word) {
+let getWordLength = function (word) {
     return word.length
 };
-console.log(`Length 'professor' word: ${getWordLenght('professor')}`);
+console.log(`Length 'professor' word: ${getWordLength('professor')}`);
 
 // arrow function
-getWordLenght = (word) => {
+getWordLength = (word) => {
     return word.length;
 };
-console.log(`Length 'professor' word: ${getWordLenght('professor')}`);
+console.log(`Length 'professor' word: ${getWordLength('professor')}`);
 
 // When there is only one parameter, we can remove the surrounding parenthesies
-getWordLenght = word => {
+getWordLength = word => {
     return word.length;
 };
-console.log(`Length 'professor' word: ${getWordLenght('professor')}`);
+console.log(`Length 'professor' word: ${getWordLength('professor')}`);
 
 // When the only statement in an arrow function is `return`, we can remove `return` and remove
 // the surrounding curly braces
-getWordLenght = word => word.length;
-console.log(`Length 'professor' word: ${getWordLenght('professor')}`);
+getWordLength = word => word.length;
+console.log(`Length 'professor' word: ${getWordLength('professor')}`);
 
 // function without arguments
 let addRandom = function () {
