@@ -31,7 +31,7 @@ console.log(copiedPerson);
 const studentInfos = ['Hector', 32, 'Computing Science'];
 
 const printStudentInfos = function (name, age, course) {
-    return `The student informations are: ${name}, ${age}, ${course} `;
+    return `The student informations are: ${name}, ${age}, ${course}`;
 };
 
 console.log(printStudentInfos(...studentInfos));
